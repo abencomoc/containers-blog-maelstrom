@@ -39,7 +39,7 @@ capabilities:
         # AWS IAM Identity Center configuration
         awsIdc:
           idcInstanceArn: ${AWS_IDC_INSTANCE_ARN}
-          idcRegion: ${AWS_REGION}
+          idcRegion: ${AWS_IDC_REGION}
         # Map Identity Center groups to Argo CD roles
         rbacRoleMappings:
           - role: ADMIN
